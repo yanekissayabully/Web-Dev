@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        <style>
+            body{
+                background-color:rgb(86, 209, 117);
+            }
+            .azores{
+                background-color:rgb(3, 255, 251);
+            }
+            #reasons{
+                background-color:rgb(153, 247, 227);
+            }
+        </style>
+    </head>
+    <body>
+    
+        <h1>Travel to <em><strong class='azores'>Azores</strong></em></h1>
+        <img src='https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/mountains-and-lake.png' width='350px'>
+        <p>The <strong class='azores'>Azores</strong>, an autonomous region of Portugal, are an archipelago in the mid-Atlantic. The islands are characterized by dramatic landscapes, fishing villages, green pastures and hedgerows of blue hydrangeas. São Miguel, the largest, has lake-filled calderas and the Gorreana Tea Plantation. Pico is home to the 2,351m Mt. Pico and vineyards sheltered by boulders.
+        </p>
+        <h2 id='reasons'>Why you should visit the <em><strong class='azores'>Azores</strong></em></h2>
+        <ol>
+            <li><strong>Waterfalls</strong></li>
+            <li><strong>Mountains</strong></li>
+            <li><strong>Rivers</strong></li>
+        </ol>
+        <img src='https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-sunset.png' width='350px' height='200px'>
+        <h3><em>More reasons</em></h3>
+        <ul>
+            <li><strong>Beautifull</strong></li>
+            <li><strong>Amazing</strong></li>
+            <li><strong>Awesome</strong></li>
+        </ul>
+        <img src='https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach.png' width='350px'>
+        <p>The <strong class='azores'>Azores</strong> is home to endemic species of animals and plants such as the Azorina and the <strong class='azores'>Azores</strong> bullfinch (Pyrrhula murina). In 1995, the <strong class='azores'>Azores</strong> received an EU prize for the preservation of pristine nature and the development of eco-tourism.</p>
+    </body>
+</html>
