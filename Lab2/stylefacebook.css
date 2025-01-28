@@ -34,22 +34,47 @@ body {
     margin-top: 16px;
 }
 .form {
-    background-color: white;
-    padding: 16px 0px 24px 0px;
+    min-width: 396px;
 }
 .content__form {
 }
 .form__upper {
+    background-color: white;
+    padding: 16px 0px 24px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 396px;
 }
 .form__inner {
+    position: relative;
+    width: 364px;
 }
-.form__login {
+.form__inner > *:first-child{
+    margin-top: 0px;
 }
-.form__password {
+.form__inner > * {
+    margin-top: 12px;
+}
+.form__input{
+    max-width: 100%;
+}
+.form__input input{
+    width: 100%;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
 }
 .button {
+    line-height: 48px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0px;
 }
 .form__button__login {
+    background-color: #0866ff;
+    color: white;
 }
 .form_forget {
 }
