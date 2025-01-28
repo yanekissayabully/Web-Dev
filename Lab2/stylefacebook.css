@@ -55,12 +55,13 @@ body {
 }
 .form__inner > * {
     margin-top: 12px;
+    width: 100%;
 }
 .form__input{
     max-width: 100%;
 }
 .form__input input{
-    width: 100%;
+    width: 330px;
     border-radius: 6px;
     font-size: 17px;
     padding: 14px 16px;
@@ -71,6 +72,7 @@ body {
     font-size: 20px;
     font-weight: 700;
     border: 0px;
+    color: white;
 }
 .form__button__login {
     background-color: #0866ff;
@@ -81,6 +83,9 @@ body {
 .form__link {
 }
 .button_green {
+    background-color: #42b72a;
+    font-size: 17px;
+    padding: 0px 16px;
 }
 .form__bottom {
 }
