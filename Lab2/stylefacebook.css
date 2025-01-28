@@ -1,0 +1,69 @@
+body {
+    background-color: #f2f4f7;
+    margin: 0;
+    padding: 0;
+    font-family: "SFProDisplay-Bold", Helvetica, Arial, sans-serif;
+}
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.container__greeting {
+    padding-top: 112px;
+}
+.content__logo {
+    max-width: 320.94px;
+    max-height: 53.578px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content__logo img {
+    width: 100%;
+    margin-left: -28px;
+}
+.content-text {
+    font-size: 28px;
+    line-height: 32px;
+    max-width: 500px;
+    margin-top: 16px;
+}
+.form {
+    background-color: white;
+    padding: 16px 0px 24px 0px;
+}
+.content__form {
+}
+.form__upper {
+}
+.form__inner {
+}
+.form__login {
+}
+.form__password {
+}
+.button {
+}
+.form__button__login {
+}
+.form_forget {
+}
+.form__link {
+}
+.button_green {
+}
+.form__bottom {
+}
+.form_text {
+}
+.form__text {
+}
+.form__text__bold {
+}
+.footer {
+}
