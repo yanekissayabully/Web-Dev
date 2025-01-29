@@ -11,6 +11,8 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 90px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 .container__greeting {
     padding-top: 112px;
@@ -134,6 +136,8 @@ body {
     background-color: white;
     margin-top: 100px;
     max-width: 1263px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .footer-langs {
     margin: 0 auto;

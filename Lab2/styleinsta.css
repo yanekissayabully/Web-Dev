@@ -1,55 +1,373 @@
+body{
+    display: block;
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
 
-body {
-    font-family: Arial, sans-serif;
+.container{
+    height: 815px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #fafafa;
 }
 
-.container {
+.left{
+    width: 380px;
+    margin-bottom: 12px;
+    height: 582px;
+    background-image: url("home-phones-2x.png");
+    background-size: 468px 634px;
+    flex-basis: 380px;
+    margin-right: 32px;
+    align-self: center;
+    background-position: -46px 0;
+}
+
+.phone-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 27px;
+    margin-left: 112px;
+    box-sizing: border-box;
+    align-items: stretch;
+    position: relative;
+}
+
+.left img{
+    width: 250px;
+    height: 539px;
+
+
+}
+
+.right{
+    width: 350px;
+    height: 740px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    max-width: 350px;
+}
+
+.form-container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(219, 219, 219);
+    margin: 0 0 10px;
+    padding: 10px 0;
+    background-color: white;
+}
+
+.image-logo{
+    margin: 36px 0 12px;
+    width: 175px;
+    height: 60px;
+    display: inline-block;
+}
+
+.form-box{
+    margin-bottom: 12px;
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: baseline;
+}
+
+.form-input{
+    margin-top: 24px;
+    overflow-y: visible;
+    overflow-x: visible;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    align-items: stretch;
+    align-self: auto;
+    justify-content: flex-start;
+    position: relative;
+    flex-grow: 0;
+
+}
+.form-email{
+    margin: 0 40px 6px;
+    width: 269px;
+    height: 37px;
+
+}
+
+.email-input{
     display: flex;
     align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+input:focus{
+    outline:none;
+    border: 1px solid rgb(140, 140, 140);
+}
+
+input{
+    padding: 9px 0 7px 8px;
+    width: 257px;
+    height: 20px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 3px;
+    background-color: rgb(250, 250, 250);
+    font-size: 14px;
+}
+
+
+
+input::placeholder{
+    font-size: 12px;
+    color: #606770;
+}
+
+button{
+    cursor: pointer;
+}
+
+.log-in-button{
+    width: 267px;
+    height: 32px;
+    margin: 8px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log-in-button button{
+    width: 236px;
+    height: 18px;
+    padding: 7px 16px;
+    box-sizing: content-box;
+    border: none;
+    background-color: #0095f6;
+    opacity: 0.7;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
     margin: 0;
 }
 
-.phone-preview img {
-    width: 300px;
+.divider{
+    width: 267px;
+    height: 15px;
+    margin: 14px 40px 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
-.login-box {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
-    width: 350px;
-    text-align: center;
+.divider-line{
+    width: 108px;
+    height: 1px;
+    background-color: #dbdbdb;
 }
 
-h1 {
-    font-family: 'Billabong', sans-serif;
-    font-size: 36px;
+.divider-text{
+    margin: 0 16px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #737373;
+
 }
 
-form input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.password{
+    margin: 8px 40px;
+    width: 269px;
+    height: 37px;
 }
 
-button {
-    width: 100%;
-    padding: 10px;
-    background: #0095f6;
-    color: white;
+.log-facebook{
+    margin: 8px 40px;
+    width: 269px;
+    display: flex;
+    flex-direction: column;
+}
+
+.facebook{
+    width: 268px;
+    max-height: 20px;
+    padding: 0;
+    margin: 0;
     border: none;
-    border-radius: 5px;
-    font-size: 16px;
+    text-align: center;
+    color: #0095f6;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
 }
 
-.facebook-login {
-    background: #385185;
+.button-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 268px;
+    max-height: 20px;
 }
+
+.button-icon{
+    width: 20px;
+    height: 20px;
+    padding: 0 4px;
+    margin-right: 4px;
+}
+.button-icon img{
+    width: 20px;
+    height: 20px;
+
+}
+
+.button-text{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.button-text:hover{
+    color: #135a93;
+}
+
+.forget-password{
+    width: 162px;
+    height: 18px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+}
+
+.forget-password a{
+    text-decoration: none;
+    color: #385898;
+}
+
+.forget-password a:visited{
+    text-decoration: none;
+    color: #385898;
+}
+
+.new-account{
+    width: 349px;
+    height: 41px;
+    border: 1px solid rgb(219, 219, 219);
+    margin-bottom: 10px;
+    align-items: center;
+    border-radius: 1px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 10px 0;
+    position: relative;
+    background-color: white;
+}
+
+.singup-span{
+    width: 226x;
+    height: 41px;
+    font-size: 13px;
+}
+
+.sign-a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #0095f6;
+}
+
+.icon-img{
+    height: 40px;
+}
+
+.download{
+    width: 350px;
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    font-size: 13px;
+}
+
+.download-links {
+    margin: 10px 0;
+}
+
+.google{
+    margin-right: 8px;
+}
+
+
+
+footer{
+    height: 135px;
+    padding: 0 16px;
+}
+
+.links-pages{
+    height: 83px;
+    margin-bottom: 52px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.links-container{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: stretch;
+    justify-content: flex-start;
+    align-self: auto;
+    flex-grow: 0;
+    flex-wrap: wrap;
+
+}
+
+.link-to-page{
+    width: fit-content;
+    margin: 0 8px 12px;
+}
+
+.link-to-page a{
+    text-decoration: none;
+    color: #737373;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.link-to-page a:hover{
+    text-decoration: underline;
+}
+
+.others{
+    color: #737373;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
