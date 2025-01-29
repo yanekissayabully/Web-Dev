@@ -77,21 +77,49 @@ body {
 .form__button__login {
     background-color: #0866ff;
     color: white;
+    cursor: pointer;
 }
 .form_forget {
+    margin: 15px 0px;
 }
 .form__link {
+    text-decoration: none;
+    font-size: 14px;
+    color: #0866ff;
+    font-weight: 500;
+}
+.divider{
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+.form__link:hover{
+    text-decoration: underline;
 }
 .button_green {
     background-color: #42b72a;
     font-size: 17px;
     padding: 0px 16px;
+    cursor: pointer;
+}
+.button_green:hover{
+    background-color: #36a420;
 }
 .form__bottom {
+    font-size: 13px;
+    padding-top: 15px;
+    font-weight: bold;
 }
 .form_text {
+    color:black;
+    font-family:  SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 28px;
+    margin-bottom: 0px;
 }
 .form__text {
+    text-align: center;
 }
 .form__text__bold {
 }
