@@ -9,14 +9,14 @@ function addTask() {
         li.innerHTML = inputBox.value;
         listContainer.appendChild(li);
         let img = document.createElement("img");
-        img.src = "img/delete-icon.svg";
+        img.src = "delete-icon.svg";
         img.style.width = "20px";
         img.style.height = "20px";
         img.addEventListener("mouseover", () => {
-            img.src="img/delete-icon-hover.svg";
+            img.src="delete-icon-hover.svg";
         });
         img.addEventListener("mouseout", () => {
-            img.src="img/delete-icon.svg";
+            img.src="delete-icon.svg";
         });
         li.appendChild(img);
     }

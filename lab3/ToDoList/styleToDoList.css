@@ -169,7 +169,7 @@ header{
 
 #list li::before{
     content: "";
-    background-image: url("img/unchecked-box.svg");
+    background-image: url("unchecked-box.svg");
     width: 20px;
     height: 20px;
     background-repeat: no-repeat;
@@ -186,7 +186,7 @@ header{
 }
 
 #list li.checked::before{
-    background-image: url("img/checked-box.svg");
+    background-image: url("checked-box.svg");
 }
 
 #list li img{
