@@ -90,8 +90,9 @@ body {
     font-weight: 500;
 }
 .divider {
-    border: none;
+    /* border: none; */
     height: 1px;
+    width: 100%;
     background-color: #ccc;
     margin-bottom: 20px;
     margin-top: 20px;
