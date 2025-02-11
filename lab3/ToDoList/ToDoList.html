@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styleToDoList.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="logo">
+            <h2>ToDo List</h2>
+        </div>
+    </header>
+    <main>
+        <div class="todo-list">
+            <div class="list-container">
+                <div class="list-header">
+                    <div class="header-text">
+                        <h1>ToDo List</h1>
+                    </div>
+                </div>
+                <div class="list-body">
+                    <div class="adder">
+                        <div class="adder-input-box">
+                            <input type="text" id="input-box" placeholder="New Task">
+                        </div>
+                        <div class="adder-button">
+                            <button onclick="addTask()">ADD</button>
+                        </div>
+                    </div>
+                    <div class="list-content">
+                        <ul id="list">
+                            <!--<li class="checked">Task1</li>
+                            <li>Task2</li>
+                            <li>Task3</li>
+                            <li>Task4</li>-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+<script src="ScriptToDoList.js"></script>
+</body>
+</html>
