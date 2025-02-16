@@ -1,0 +1,37 @@
+<div class="product-card">
+  <div class="product-img">
+    <img [src]="image" [alt]="name">
+  </div>
+  <div class="card-body">
+    <div class="name-of-product">
+      <a [href]="link"><h3>{{ name }}</h3></a>
+    </div>
+    <div class="description-of-product">
+      <p>{{ description }}</p>
+    </div>
+    <div class="share-rating">
+      <div class="rating-number">
+        <p>{{rating}}</p>
+      </div>
+      <div class="rating" [ngClass]="getRatingClass()"></div>
+      <div class="comments">
+        <a [href]="commentsLink">({{commentsNumber}}  reviews)</a>
+      </div>
+      <div class="share">
+        <button id="whatsapp" (click)="shareProductW()"></button>
+        <button id="telegram" (click)="shareProductT()"></button>
+      </div>
+    </div>
+    <div class="buy-part">
+      <div class="price-of-product">
+        <p><span>In installments: </span>
+          <span id="credit-price">{{ (price / 12) | number: '1.0-0' }}</span>
+          <span><span id="credit"> x12</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
+          <span>Price: </span>{{ price | number: '1.0-0'}}₸</p>
+      </div>
+      <div class="buy-button">
+        <button><a href="">Buy</a></button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,199 @@
+.product-card {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  max-width: 800px;
+  min-width: 320px;
+  max-height: 220px;
+  min-height: 200px;
+  width: 800px;
+  height: 220px;
+  border: 1px solid rgba(176, 176, 176, 0.85);
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.product-img {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.product-img img{
+  height: 200px;
+}
+
+.card-body{
+  min-height: 185px;
+  max-height: 200px;
+  padding: 10px 40px 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.name-of-product h3{
+  margin: 0;
+}
+
+.name-of-product a{
+  text-decoration: none;
+  color: #0990f1;
+}
+.name-of-product a:hover{
+  text-decoration: underline;
+}
+.name-of-product a:visited{
+  color: #0990f1;
+}
+
+.name-of-product{
+  min-height: 21px;
+}
+
+.description-of-product p{
+  margin: 10px 0 0 0;
+  min-height: 70px;
+}
+
+.buy-part{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 10px;
+  min-height: 40px;
+  box-sizing: border-box;
+}
+
+.price-of-product{
+  font-weight: bold;
+}
+
+.price-of-product p{
+  font-size: 18px;
+  margin: 0;
+}
+.price-of-product p span{
+  font-size: 14px;
+  font-weight: 300;
+  color: #9b9b9b;
+}
+
+#credit-price{
+  color: #000000;
+}
+
+#credit{
+  color: #000000;
+  background-color: yellow;
+}
+
+.buy-button{
+  margin-left: 25px;
+}
+
+.buy-button button{
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: #1c83da;
+  border-radius: 2px;
+}
+.buy-button button:hover{
+  background-color: #1977c9;
+}
+
+.buy-button button a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.share-rating{
+  margin: 15px 0;
+  min-height: 43px;
+  box-sizing: border-box;
+}
+
+.rating{
+  height: 20px;
+  width: 117px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.f0to1{
+  background-image: url("/assets/img/f0to1.png");
+}
+.f1to2{
+  background-image: url("/assets/img/f1to2.png");
+}
+.f2to3{
+  background-image: url("/assets/img/f2to3.png");
+}
+.f3to4{
+  background-image: url("/assets/img/f3to4.png");
+}
+.f4to5{
+  background-image: url("/assets/img/f4to5.png");
+}
+.f5star{
+  background-image: url("/assets/img/f5star.png");
+}
+.defaultsStar{
+  background-image: url("/assets/img/default.png");
+}
+
+
+.share-rating{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding-top: 10px;
+}
+.rating-number p{
+  margin: 0;
+}
+
+.comments a{
+  text-decoration: none;
+  color: #9b9b9b;
+}
+
+.comments a:hover{
+  text-decoration: underline;
+  color: #858585;
+}
+
+.share button{
+  width: 30px;
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#whatsapp{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1024px-WhatsApp.svg.png");
+}
+#telegram{
+  width: 27px;
+  height: 27px;
+  background-image: url("https://александровскийрайон.рф/images/1_steel_all/telegram-logo.jpg");
+}
+
+.share button img{
+  width: 20px;
+  height: 20px;
+}

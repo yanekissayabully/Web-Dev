@@ -1,0 +1,12 @@
+<app-product-card
+*ngFor="let product of products"
+[image]="product.image"
+[name]="product.name"
+[description]="product.description"
+[price]="product.price"
+[link]="product.link"
+[rating]="product.rating"
+[commentsLink]="product.commentsLink"
+[commentsNumber]="product.commentsNumber"
+></app-product-card>
+<router-outlet></router-outlet>
