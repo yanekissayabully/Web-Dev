@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+  font-family: 'Lexend Deca', 'Rubik', sans-serif;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-size: 14px;
+  width: 100%;
+}
