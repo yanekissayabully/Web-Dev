@@ -1,0 +1,6 @@
+<div *ngIf="companies.length > 0">
+  <ul>
+    <li *ngFor="let company of companies">{{ company.name }}</li>
+  </ul>
+</div>
+<p *ngIf="companies.length === 0">No companies found.</p>
